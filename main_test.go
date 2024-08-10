@@ -23,8 +23,8 @@ func TestAdd1(t *testing.T) {
         t.Errorf("Add(2, 3) = %d; want %d", result, expected)
     }   
     
-    result1 := Add(2, 3)
-    expected1 := 6
+    result1 := Add(5, 3)
+    expected1 := 8
     if result1 != expected1 {
         t.Errorf("Add(2, 3) = %d; want %d", result, expected)
     }    
